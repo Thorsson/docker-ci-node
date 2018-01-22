@@ -1,0 +1,10 @@
+{
+  "name": "node-awscli",
+  "version": "1.0.0",
+  "description": "Public docker image with Node 8.9, ecs-cli, and aws-cli",
+  "scripts": {
+    "build": "docker build -t thorsson/docker-ci-node ."
+  },
+  "author": "Ivan Turkovic <ivan.turkovic@gmail.com>",
+  "license": "ISC"
+}

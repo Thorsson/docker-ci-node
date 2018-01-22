@@ -17,3 +17,8 @@ chmod +x /usr/local/bin/ecs-cli
 npm install -g merge-yaml-cli
 npm install -g aws-sdk
 npm install -g babel-cli
+
+# permit node user to install global libraries
+chown -R node /usr/local/lib/node_modules
+chown -R node /usr/local/bin
+chown -R node /usr/local/share
